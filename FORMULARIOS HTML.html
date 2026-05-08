@@ -1,0 +1,57 @@
+<!doctype html>
+<html >
+<head>
+<meta charset="utf-8">
+<title> ESTE EH MEU PRIMEIRO TITULO</title>
+</head>
+<body>
+<!--Formularios html-->
+<for action="/pagina-processa-dados-do-form" method="post">
+<ieldset>
+<legend>DADOS GERAIS</legend>
+<label for="NOME"> NOME:</label>
+<input type="text" minlength="3" id:"NOME" />
+
+<label for="DATA DE NASCIMENTO"> DATA DE NASCIMENTO:</label>
+<input type="text" id="DATA DE NASCIMENTO" />
+<label for="CPF">cpf:</label>
+<input type="CPF" minlength="11"id:"CPF"/>
+</fieldset>
+
+<ieldset>
+<legend>ENDERECO</legend>
+<label for="TIPO-ENDERECO"> TIPO:</label>
+<select id="TIPO_endereco">
+<option value="">SELECIONE</option>
+<option value="">RUA</option>
+<option value="">ESTRADA</option>
+<option value="">RODOVIA</option>
+<option value="">OUTROS</option>
+</select>
+
+<label
+for="logradouro_endereco">LOGRADOURO:</label>
+<input type:"text"
+id:"logradouro_endereco" />
+<label
+for="numero_endereco">NUMERO:</label>
+<input type:"text"
+id:"NUMERO_endereco" />
+<label
+for="complemento_endereco">COMPLEMENTO:</label>
+<input type:"text"
+id="complemento_endereco" />
+</fieldset>
+<fieldset>
+<legend>fale conosco</legend>
+<label
+for="msg"> MENSAGEM:</label>
+<textarea type="text id:"msg">
+</textarea>
+</fieldset>
+<fieldset>
+<button type="submit">ENVIAR SUA MENSAGEM</button>
+<button type="reset"> limpar o Formulario</button>
+</fieldset>
+</form>
+
